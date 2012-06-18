@@ -1,0 +1,58 @@
+/* Main */
+  li                           { display: inline-block; }
+  body                         { background: none repeat scroll 0 0 #CFCFCF; padding-top: 0 !important; margin: 0; }
+  .core                        { width: 990px; margin: 0 auto; }
+  body,
+  .default-font                { font: 12px Helvetica,Arial,sans-serif; }
+
+  .white-link                  { text-decoration: none; color: white; }
+  .white-link:hover            { text-decoration: linen #ffffff; }
+
+/* Logo */
+  .core a                      { text-decoration: none;}
+  .logbar-bg                   { background: -moz-linear-gradient(center top , #F8F8F8, #E8E8E8) repeat scroll 0 0 transparent;
+                                 background: -webkit-linear-gradient(top, #F8F8F8, #E8E8E8); border-bottom: 1px solid #000000;
+                                 border-top: 1px solid #FFFFFF; height: 35px; margin: 0; }
+  .learn-more                  { background: url("../imgs/learn_more.png") no-repeat scroll 0 0 transparent; display: inline-block;
+                                 height: 17px; margin-top: 9px; width: 92px; margin-left: 5px; }
+  .logbar-lock                 { padding-right: 5px; }
+  .logbar-login                { border-right: 1px solid #CCCCCC; color: #333333; font-family: sans-serif; font-size: 12px;
+                                 font-weight: bold; margin-left: -70px; margin-top: -19px; padding-right: 11px; position: absolute;
+                                 text-shadow: 0 1px 0 #FFFFFF; }
+  .logbar-right                { float: right; }
+  .logbar-label                { float: left; height: 34px; margin-top: -1px; padding-right: 10px; }
+  .logbar-showcase             { color: #333333; font:bold 13px sans-serif; margin-top: 9px; padding-left: 2px;
+                                 text-shadow: 0 1px 0 #FFFFFF; vertical-align: top; display: inline-block; }
+  .learn-more:hover            { margin-top: 9px; background-image: url("../imgs/learn_more_hover.png"); }
+  .logbar-search-form          { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #CCCCCC; border-radius: 15px 15px 15px 15px;
+                                 box-shadow: 0 2px 5px -3px rgba(0, 0, 0, 0.3) inset; color: #CCCCCC; height: 20px; margin-top: 6px;
+                                 padding: 0 13px; width: 120px; }
+
+/* Main menu */
+  .menu-bar-bg                 { background: -moz-linear-gradient(center top , #353535, #010101) repeat scroll 0 0 transparent;
+                                 border-top: 1px solid #555666; box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.6); color: #222222; height: 57px; }
+
+  ul.top-menu-l,
+  ul.top-menu-r                { color: #DDDDDD; margin: 0px; padding-top: 21px;}
+
+  ul.top-menu-l                { float: left;  padding-left: 0;  }
+  ul.top-menu-l li             { border-right: 1px solid #353535; line-height: 55px; margin-top: -20px; padding-left: 15px; padding-right: 15px; }
+  ul.top-menu-l li:hover       { background: #333333; }
+
+  ul.top-menu-r                { float: right;}
+  ul.top-menu-r li             { border-left: 1px solid #000000; display: inline-block; margin-top: -5px; padding-left: 10px; }
+  ul.top-menu-r li:first-child { border-right: 1px solid #555555; display: inline-block; margin-right: 0; margin-top: -5px;
+                                 padding-left: 10px; padding-right: 13px; }
+/* Main Content*/
+  .main-content                { margin-bottom: 100px; margin-top: 40px; min-height: 800px; background: none repeat scroll 0 0 #FFFFFF;
+                                 border-radius: 5px 5px 5px 5px; box-shadow: 0 0 5px 1px #B8B8B8; }
+  .third-footer                { background: #333333; border-top: solid #555555; }
+  .first-footer                { background: none repeat scroll 0 0 #E4E4E4; height: 220px; }
+  .second-footer               { background: -moz-linear-gradient(center top , #282828, #111111) repeat scroll 0 0 transparent;
+                                 border-top: 1px solid #000000; height: 400px; }
+
+  .footer-menu-bg              { background: #111111; margin: 0 auto; }
+  .galleries-list              { float: left; }
+  .project-preview             { background: none repeat scroll 0 0 #EEEEEE; border-radius: 4px 4px 4px 4px;
+                                 box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4); float: left; height: 300px;
+                                 margin-bottom: 10px; margin-right: 20px; margin-top: 10px; overflow: hidden; width: 202px; }
