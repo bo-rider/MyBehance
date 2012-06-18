@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE HTML>
 <html>
 <head>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin-ext,cyrillic-ext' rel='stylesheet' type='text/css'>
     <title>My Behance</title>
     <meta content="text/html" charset="utf-8" http-equiv="Content-Type"/>
     <link rel="stylesheet" href="styles/styles.css" type="text/css">
@@ -29,12 +30,12 @@
     <div class="menu-bar-bg">
         <div class="core"><!-- menu - 2-levels ul -->
             <ul class="top-menu-l">
-		<li>Behance</li>
-		<li>Explore</li>
-		<li>Gallery</li>
-		<li>Job</li>
-		<li>More</li>
-		</ul>
+                <li>Behance</li>
+                <li>Explore</li>
+                <li>Gallery</li>
+                <li>Job</li>
+                <li>More</li>
+		    </ul>
 
             <ul class="top-menu-r"> <!-- list with 2 elements "li" with 2 links-->
                 <li>
@@ -47,73 +48,26 @@
         </div>
     </div>
 </header>
+
 <div class="core">
     <div class="main-content"> <!-- main block -->
-
-<!-- filters bar with different forms-->
-    <!-- labels-->
-    <div>
-        <div>
-            <span>More</span>
-        </div>
-        <div>
-            <span>Filters</span>
-        </div>
-    </div>
-<!------->
-All Creative Fields
-
-Featured
-
-All Time
-
-Location
-
-<!--CHOOSE A LOCATION image-->
-
-<!-- POPULAR TAGS image-->
-
-    Search
-
-<!-- ADVANCED FILTERS
-
-View Work By:
-
-SEARCH A SCHOOL
-Apply Cancel
-
-Tools Used
-TOOLS FOR
-Apply Cancel
-
-    Continents
-
-    <ul>CHOOSE CONTINENTS
-        <li><input type="checkbox">Africa</li>
-        <li><input type="checkbox">Asia</li>
-        <li><input type="checkbox">Europe</li>
-        <li><input type="checkbox">Oceania</li>
-        <li><input type="checkbox">North America</li>
-        <li><input type="checkbox">South America</li>
-        Apply Cancel
-    </ul>
-
-Saved Searches
-
-    <ul>
-        <li>You have not saved any searches yet
-            Make sorting the world's creative work easier by saving up to 3 of your favorite searches.
-            Save this search?
-            Save
-        </li>
-    </ul>
-What's Next
-What's Next
-We are always researching new ways to match the world's best talent with the best opportunity. So keep an eye out for
-exciting developments to better sort, filter, explore, and discover.
-Find out first!
-Send
--->
+    <header><!-- filters bar with different forms-->
+        <span style="background: #B90C0C; color: white; float: right;">More</span>
+        <span style="background: -moz-linear-gradient(center top , #4D4D4D, #1E1E1E) repeat scroll 0 0 transparent; color: white;">Filters</span>
+        <!------->
+        <ul>
+          <li>All Creative Fields</li>
+          <li>Featured</li>
+          <li>All Time</li>
+          <li>Location</li>
+          <li>
+              <form name="search" method="get" action="/search">
+                 <input type="text" placeholder="Search" class="logbar-search-form">
+              </form>
+          </li>
+          <li>ADVANCED FILTERS</li>
+        </ul>
+    </header>
 
 <a href="#">Projects </a><a href="#"> People</a>
 
@@ -122,14 +76,14 @@ Send
         <ul style="margin-left: 15px;">
             <li>
                 <div class="project-preview">
-                    <img src="images/1_projectlist_img.jpg" alt="'wich">
-                    'wich
-                    by
-                    Ken Lo
-                    Branding, Graphic Design
-                    F G
-                    Q
-                    Featured On: 06/04/12
+                   <header>
+                        <img src="images/1_projectlist_img.jpg" alt="'wich">
+                        <a href="#" class="blue-link">'wich</a>
+                   </header>by
+                        <a href="#" class="blue-link">Ken Lo</a>
+                        <a href="#" class="gray-link">Branding</a>,
+                        <a href="#" class="gray-link">Graphic Design</a>
+                   <footer>Featured On: 06/04/12F</footer>
                 </div>
             </li>
             <li>
@@ -209,100 +163,100 @@ Send
 </div>
 </div>
 <footer>
-<div class="first-footer">    <!-- first level -->
-    <div class="core">
-        <a href="/">View All→</a>
-        <ul><h2>Popular Galleries</h2>
-            <li>
-                <div class="galleries-list">
-                    <img src="images/adc.png" alt="ADC">ADC Young Guns organization View→
-                </div>
-            </li>
-            <li>
-                <div class="galleries-list">
-                    <img src="images/artcenter.png" alt="Art center">Art Center Gallery school View→
-                </div>
-            </li>
-            <li><img src="images/rga.png" alt="Digital Age">The Digital Age Curated Gallery View→</li>
-            <li><img src="images/sva.png" alt="SVA">SVA Portfolios school View→</li>
+    <div class="first-footer">    <!-- first level -->
+        <div class="core">
+            <a href="/">View All→</a>
+            <ul><h2>Popular Galleries</h2>
+                <li>
+                    <div class="galleries-list">
+                        <img src="images/adc.png" alt="ADC">ADC Young Guns organization View→
+                    </div>
+                </li>
+                <li>
+                    <div class="galleries-list">
+                        <img src="images/artcenter.png" alt="Art center">Art Center Gallery school View→
+                    </div>
+                </li>
+                <li><img src="images/rga.png" alt="Digital Age">The Digital Age Curated Gallery View→</li>
+                <li><img src="images/sva.png" alt="SVA">SVA Portfolios school View→</li>
 
-        </ul>
+            </ul>
+        </div>
     </div>
-</div>
 
-<div class="second-footer">    <!-- second level -->
-    <div class="core">
-        <span>Take Creative Control & Make Ideas Happen <a href="/">Learn More About Behance</a> </span>
-        <ul>
-            <li>Team Blog</li>
-            <li>About Our Company</li>
-            <li>Press</li>
-            <li>We're Hiring!</li>
-        </ul>
-        <h3>The Power of The Platform</h3>
-        Behance Network Join The Leading Platform For Creative Professionals
-        Behance ProSite Build a Custom Online Portfolio Site in Minutes
-        Curated Galleries View Work by top Behance members on curated galleries
-        Powered-By Behance Browse galleries on LinkedIn, SVA, RISD, and many more
-        Find & Hire Top Creative Talent Find, track, and hire creative talent in the largest platform in the world
-        <h3>Our Other Products</h3>
-        The 99% Think Tank Articles, Tips, & Videos on Making Ideas Happen
-        Action Method Task Management for creative thinkers
-        Creative's Outfitter Products and tools for creative professionals
-        <h5>Follow Behance</h5>
-        <ul>
-            <li>Twitter</li>
-            <li>LinkedIn</li>
-            <li>Facebook</li>
-            <li>Newsletter</li>
-        </ul>
+    <div class="second-footer">    <!-- second level -->
+        <div class="core">
+            <span style="display: block; float: left; font-family: 'Open Sans',sans-serif; font-size: 3em; width: 750px;">Take Creative Control & Make Ideas Happen <a href="/">Learn More About Behance</a> </span>
+            <ul>
+                <li>Team Blog</li>
+                <li>About Our Company</li>
+                <li>Press</li>
+                <li>We're Hiring!</li>
+            </ul>
+            <h3>The Power of The Platform</h3>
+            Behance Network Join The Leading Platform For Creative Professionals
+            Behance ProSite Build a Custom Online Portfolio Site in Minutes
+            Curated Galleries View Work by top Behance members on curated galleries
+            Powered-By Behance Browse galleries on LinkedIn, SVA, RISD, and many more
+            Find & Hire Top Creative Talent Find, track, and hire creative talent in the largest platform in the world
+            <h3>Our Other Products</h3>
+            The 99% Think Tank Articles, Tips, & Videos on Making Ideas Happen
+            Action Method Task Management for creative thinkers
+            Creative's Outfitter Products and tools for creative professionals
+            <h5>Follow Behance</h5>
+            <ul>
+                <li>Twitter</li>
+                <li>LinkedIn</li>
+                <li>Facebook</li>
+                <li>Newsletter</li>
+            </ul>
+        </div>
     </div>
-</div>
 
-<div class="third-footer"> <!-- third level -->
-    <div class="core">
-        <h4>Latest Blog Posts</h4>
-        <ul>
-            <li>» Most Appreciated Projects on Behance</li>
-            <li>» 4,000 Creatives Come Together During Epic Week: Behance Portfolio Review Week Recap</li>
-            <li>» Behance Uses Rackspace and RightScale to Scale a Thriving Creative Community</li>
-            <li>» Most Appreciated Projects on Behance</li>
-        </ul>
-        <a href="/">View all Posts → </a>
-        <h6>Quick Links</h6>
-        <ul>
-            <li>Design Portfolio</li>
-            <li>Photography Portfolio</li>
-            <li>Art Portfolio</li>
-        </ul>
+    <div class="third-footer"> <!-- third level -->
+        <div class="core">
+            <h4>Latest Blog Posts</h4>
+            <ul>
+                <li>» Most Appreciated Projects on Behance</li>
+                <li>» 4,000 Creatives Come Together During Epic Week: Behance Portfolio Review Week Recap</li>
+                <li>» Behance Uses Rackspace and RightScale to Scale a Thriving Creative Community</li>
+                <li>» Most Appreciated Projects on Behance</li>
+            </ul>
+            <a href="/">View all Posts → </a>
+            <h6>Quick Links</h6>
+            <ul>
+                <li>Design Portfolio</li>
+                <li>Photography Portfolio</li>
+                <li>Art Portfolio</li>
+            </ul>
 
-        <ul>
-            <li>Fashion Portfolio</li>
-            <li>Graphic Design Portfolio</li>
-            <li>Portfolio Websites</li>
-        </ul>
+            <ul>
+                <li>Fashion Portfolio</li>
+                <li>Graphic Design Portfolio</li>
+                <li>Portfolio Websites</li>
+            </ul>
 
-        <ul>
-            <li>Mobile Portfolios Apps</li>
-            <li>Success Stories</li>
-        </ul>
+            <ul>
+                <li>Mobile Portfolios Apps</li>
+                <li>Success Stories</li>
+            </ul>
+        </div>
     </div>
-</div>
-<div class="footer-menu-bg"><!-- Footer menu-->
-    <div class="core">
-        <ul >
-            <li>Terms of Service & Privacy</li>
-            <li>Help & FAQ</li>
-            <li>Contact Us</li>
-            <li>Advertise</li>
-            <li>Facts & Figures</li>
-            <li>Friends & Respect</li>
-            <li>Apps</li>
-            <li>Made in NYC</li>
-        </ul>
-        <span>All member work copyright of respective owner, otherwise © 2006-2012 Behance, Inc.</span>
+    <div class="footer-menu-bg"><!-- Footer menu-->
+        <div class="core">
+            <ul class="footer-menu">
+                <li>Terms of Service & Privacy</li>
+                <li>Help & FAQ</li>
+                <li>Contact Us</li>
+                <li>Advertise</li>
+                <li>Facts & Figures</li>
+                <li>Friends & Respect</li>
+                <li>Apps</li>
+                <li>Made in NYC</li>
+            </ul>
+            <span style="color: gray;">All member work copyright of respective owner, otherwise © 2006-2012 Behance, Inc.</span>
+        </div>
     </div>
-</div>
 </footer>
 </body>
 </html>
