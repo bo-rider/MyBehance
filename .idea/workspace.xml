@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1bb24970-f97f-46d2-bef4-c8f965cde524" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="$PROJECT_DIR$/styles/styles.css" />
     </list>
     <ignored path="Beh_from_beginning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="76" selection-start="2404" selection-end="2404" vertical-scroll-proportion="0.28333333">
+            <state line="52" column="35" selection-start="1972" selection-end="1972" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="77" selection-start="5612" selection-end="5612" vertical-scroll-proportion="0.0">
+            <state line="74" column="78" selection-start="5166" selection-end="5166" vertical-scroll-proportion="0.34323922">
               <folding />
             </state>
           </provider>
@@ -60,8 +62,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/styles/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/styles.css" />
       </list>
     </option>
   </component>
@@ -202,7 +204,11 @@
       <created>1340674005552</created>
       <updated>1340674005552</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="edit css styles and html semantic structure">
+      <created>1340674012545</created>
+      <updated>1340674012545</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -306,16 +312,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles/styles.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="77" selection-start="5612" selection-end="5612" vertical-scroll-proportion="0.0">
+        <state line="52" column="35" selection-start="1972" selection-end="1972" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="76" selection-start="2404" selection-end="2404" vertical-scroll-proportion="0.28333333">
+        <state line="74" column="78" selection-start="5166" selection-end="5166" vertical-scroll-proportion="0.34323922">
           <folding />
         </state>
       </provider>

@@ -63,11 +63,17 @@ p, blockquote, th, td            { margin: 0; padding: 0;}
   ul.top-menu-r li:first-child   { border-right: 1px solid #555555; display: inline-block; margin-right: 0; padding-left: 10px; padding-right: 13px; }
 /* Main Content*/
   .main-content                  { margin-bottom: 90px; margin-top: 40px; min-height: 800px; background: none repeat scroll 0 0 #FFFFFF;
-                                 border-radius: 5px 5px 5px 5px; box-shadow: 0 0 5px 1px #B8B8B8; }
+                                   border-radius: 5px 5px 5px 5px; box-shadow: 0 0 5px 1px #B8B8B8; }
   .main-content-header           { background: -moz-linear-gradient(center top , white 40%, #F3F3F3 100%) repeat scroll 0 0 transparent;
-                                 border-bottom: 1px solid #D1D1D1; margin-bottom: 20px; height: 60px;}
+                                   border-bottom: 1px solid #D1D1D1; margin-bottom: 20px; height: 60px;}
   .filter-menu                   { display: inline-block; padding: 0; margin-top: 12px;}
-  .filter-menu li                { padding-left: 10px; padding-right: 10px;}
+  .filter-menu li                { padding-left: 15px; padding-right: 15px;}
+  .lable-filter                  { background: -moz-linear-gradient(center top , #4D4D4D, #1E1E1E) repeat scroll 0 0 transparent;
+                                   color: white; font-size: 10px; margin-left: 20px; margin-top: -10px; padding: 1px 6px;
+                                   position: absolute; text-transform: uppercase; border-radius: 2px 2px 2px 2px;}
+  .lable-more                    { background: #B90C0C;
+                                   color: white; font-size: 10px; margin-right: 20px; margin-top: -10px; padding: 1px 6px;
+                                   float:right; text-transform: uppercase; border-radius: 2px 2px 2px 2px;}
 
   .first-footer                  { background: none repeat scroll 0 0 #E4E4E4; height: 220px; }
   .first-footer-title            { color: #333333; text-transform: uppercase; margin-bottom: 6px; margin-top: 20px;}
