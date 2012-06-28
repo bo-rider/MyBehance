@@ -5,11 +5,13 @@
     <title>My Behance</title>
     <meta content="text/html" charset="utf-8" http-equiv="Content-Type"/>
     <link rel="stylesheet" href="styles/styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/960.css" type="text/css">
+    <link rel="stylesheet" href="styles/reset.css" type="text/css">
 </head>
 
 <body>
 <header>
-    <div class="logbar-bg">
+    <div id="logbar-bg">
         <!-- First bar (Login bar) -->
         <div class="core">
             <a href="#" class="logbar-label"><img src="images/stripe_label.png"></a>
@@ -20,15 +22,18 @@
                 <form name="search" method="get" action="/search">
                   <input type="text" placeholder="Search" class="logbar-search-form">
                 </form>
-                <a href="#" class="logbar-login"><img src="images/login_lock.png" class="logbar-lock">Log In</a>
+                <a href="#" class="logbar-login">
+                    <img src="images/login_lock.png" class="logbar-lock">
+                    <span>Log In</span>
+                </a>
             </div>
         </div>
     </div>
     <!-- menu bar.  -->
-    <div class="menu-bar-bg">
+    <div id="main-menu-bg">
         <div class="core"><!-- menu - 2-levels ul -->
             <ul class="top-menu-l">
-                <li>Behance</li>
+                <li><a alt="Behance" href="#"></a></li>
                 <li>Explore</li>
                 <li>Gallery</li>
                 <li>Job</li>
