@@ -1,12 +1,12 @@
 ﻿<!DOCTYPE HTML>
-<html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin-ext,cyrillic-ext' rel='stylesheet' type='text/css'>
     <title>My Behance</title>
     <meta content="text/html" charset="utf-8" http-equiv="Content-Type"/>
+    <link rel="stylesheet" href="styles/reset.css" type="text/css">
     <link rel="stylesheet" href="styles/styles.css" type="text/css">
     <link rel="stylesheet" href="styles/960.css" type="text/css">
-    <link rel="stylesheet" href="styles/reset.css" type="text/css">
 </head>
 
 <body>
@@ -16,11 +16,11 @@
         <div class="core">
             <a href="#" class="logbar-label"><img src="images/stripe_label.png"></a>
             <a href="#" class="logbar-showcase">Showcase & Discover Creative Works</a>
-            <a href="#" class="learn-more" ></a>
+            <a href="#" class="learn-more"></a>
 
             <div class="logbar-right">
                 <form name="search" method="get" action="/search">
-                  <input type="text" placeholder="Search" class="logbar-search-form">
+                    <input type="text" placeholder="Search" class="logbar-search-form">
                 </form>
                 <a href="#" class="logbar-login">
                     <img src="images/login_lock.png" class="logbar-lock">
@@ -32,22 +32,24 @@
     <!-- menu bar.  -->
     <div id="main-menu-bg">
         <div class="core"><!-- menu - 2-levels ul -->
+            <a alt="Behance" href="#" id="behanceLogo"></a>
             <ul class="top-menu-l">
-                <li><a alt="Behance" href="#"></a></li>
                 <li>Explore</li>
                 <li>Gallery</li>
                 <li>Job</li>
                 <li>More</li>
-		    </ul>
+            </ul>
 
             <ul class="top-menu-r"> <!-- list with 2 elements "li" with 2 links-->
                 <li>
-			        <a href="#" class="white-link">Showcase Creative Work<img src="images/signup.png"></a>
-		        </li>
-                <li>
-                    <a href="#" class="white-link">Hire Top Talent<img src="images/post_job.png"></a>
+                    <a href="#" class="white-link">Showcase Creative Work</a>
+                    <a href="#" class="blue-button">Sign Up</a>
                 </li>
-	        </ul>
+                <li>
+                    <a href="#" class="white-link">Hire Top Talent</a>
+                    <a href="#" class="blue-button">Post Job</a>
+                </li>
+            </ul>
         </div>
     </div>
 </header>
@@ -59,180 +61,180 @@
             <span class="lable-filter">Filters</span>
             <!------->
             <ul class="filter-menu">
-              <li>All Creative Fields</li>
-              <li>Featured</li>
-              <li>
-                  <a href="#" alt="all time"><img src="images/all_time.png"></a>
-              </li>
-              <li>
-                  <a href="#" alt="Location"><img src="images/continents.png"></a>
-              </li>
-              <li>
-                  <a href="#" alt="tags"><img src="images/tag_filtrs.png"></a>
-              </li>
-              <li>
-                  <form name="search" method="get" action="/search">
-                     <input type="text" placeholder="Search" class="logbar-search-form">
-                  </form>
-              </li>
-              <li>ADVANCED FILTERS</li>
+                <li class="uppercase">All Creative Fields</li>
+                <li class="uppercase">Featured</li>
+                <li>
+                    <a href="#" alt="all time"><img src="images/all_time.png"></a>
+                </li>
+                <li>
+                    <a href="#" alt="Location"><img src="images/continents.png"></a>
+                </li>
+                <li>
+                    <a href="#" alt="tags"><img src="images/tag_filtrs.png"></a>
+                </li>
+                <li>
+                    <form name="search" method="get" action="/search">
+                        <input type="text" placeholder="Search" class="logbar-search-form">
+                    </form>
+                </li>
+                <li class="uppercase">Advanced Filters</li>
             </ul>
         </header>
 
-<a href="#">Projects </a><a href="#"> People</a>
+        <a href="#" id="ProjectsPeopleButton">People</a><a href="#">Projects</a>
 
-    <div class="preview-gallery"><!-- main page block with array of showcases-->
-        All Creative Fields + Featured + All Time
-        <ul class="preview-list">
-            <li>
-              <header>
-                 <img src="images/1_projectlist_img.jpg" alt="'wich" class="preview-list-image">
-                 <a href="#" class="preview-list-item-name">'wich</a>
-              </header>
-              <p>by
-                 <a href="#">Ken Lo</a>
-                 <a href="#" class="gray-link">Branding</a>,
-                 <a href="#" class="gray-link">Graphic Design</a>
-              </p>
-              <footer>Featured On: 06/04/12F</footer>
+        <div class="preview-gallery"><!-- main page block with array of showcases-->
+            <span>Creative Fields + Featured + All Time</span>
+            <ul class="preview-list">
+                <li>
+                    <header>
+                        <img src="images/1_projectlist_img.jpg" alt="'wich" class="preview-list-image">
+                        <a href="#" class="preview-list-item-name">'wich</a>
+                    </header>
+                    <p>by
+                        <a href="#">Ken Lo</a>
+                        <a href="#" class="gray-link">Branding</a>,
+                        <a href="#" class="gray-link">Graphic Design</a>
+                    </p>
+                    <footer>Featured On: 06/04/12F</footer>
 
-            </li>
-            <li>
-              <header>
-                 <img src="images/2_projectlist_img.jpg" alt="'Measure" class="preview-list-image">
-                 <a href="#" class="preview-list-item-name">Measure</a>
-              </header>
-              <p>by
-                  <a href="#">Fabrice Le Nezet</a>
-                  <a href="#" class="gray-link">Architecture</a>,
-                  <a href="#" class="gray-link">Fine Arts</a>
-              </p>
-              <footer>Featured On: 06/04/12</footer>
-            </li>
-            <li>
-              <header>
-                 <img src="images/3_projectlist_img.jpg" alt="'Measure">
-                 <a href="#" class="preview-list-item-name">The Four Seasons</a>
-              </header>
-              <p> by
-                 <a href="#">teagan white</a>
-                 <a href="#" class="gray-link">Drawing</a>,
-                 <a href="#" class="gray-link">Illustration</a>
-              </p>
-              <footer>Featured On: 06/04/12</footer>
-            </li>
-            <li>
-              <header>
-                    <img src="images/2_projectlist_img.jpg" alt="'Measure">
-                    <a href="#" class="preview-list-item-name">Measure</a>
-              </header>
-              <p>by
-                 <a href="#">Fabrice Le Nezet></a>
-                 <a href="#">Architecture</a>,
-                 <a href="#">Fine Arts</a>
-              </p>
-              <footer>Featured On: 06/04/12</footer>
-            </li>
-            <li>
-                <header>
-                    <img src="images/3_projectlist_img.jpg" alt="The Four Seasons">
-                    The Four Seasons
-                </header>
-                <p>by
-                    <a href="#">teagan white</a>
-                    <a href="#">Drawing</a>,
-                    <a href="#">Illustration</a>
-                </p>
-                <footer>Featured On: 06/04/12</footer>
-            </li>
-            <li>
-                <header>
-                    <img src="images/1_projectlist_img.jpg" alt="'wich" class="preview-list-image">
-                    <a href="#" class="preview-list-item-name">'wich</a>
-                </header>
-                <p>by
-                    <a href="#">Ken Lo</a>
-                    <a href="#" class="gray-link">Branding</a>,
-                    <a href="#" class="gray-link">Graphic Design</a>
-                </p>
-                <footer>Featured On: 06/04/12F</footer>
+                </li>
+                <li>
+                    <header>
+                        <img src="images/2_projectlist_img.jpg" alt="'Measure" class="preview-list-image">
+                        <a href="#" class="preview-list-item-name">Measure</a>
+                    </header>
+                    <p>by
+                        <a href="#">Fabrice Le Nezet</a>
+                        <a href="#" class="gray-link">Architecture</a>,
+                        <a href="#" class="gray-link">Fine Arts</a>
+                    </p>
+                    <footer>Featured On: 06/04/12</footer>
+                </li>
+                <li>
+                    <header>
+                        <img src="images/3_projectlist_img.jpg" alt="'Measure">
+                        <a href="#" class="preview-list-item-name">The Four Seasons</a>
+                    </header>
+                    <p> by
+                        <a href="#">teagan white</a>
+                        <a href="#" class="gray-link">Drawing</a>,
+                        <a href="#" class="gray-link">Illustration</a>
+                    </p>
+                    <footer>Featured On: 06/04/12</footer>
+                </li>
+                <li>
+                    <header>
+                        <img src="images/2_projectlist_img.jpg" alt="'Measure">
+                        <a href="#" class="preview-list-item-name">Measure</a>
+                    </header>
+                    <p>by
+                        <a href="#">Fabrice Le Nezet></a>
+                        <a href="#">Architecture</a>,
+                        <a href="#">Fine Arts</a>
+                    </p>
+                    <footer>Featured On: 06/04/12</footer>
+                </li>
+                <li>
+                    <header>
+                        <img src="images/3_projectlist_img.jpg" alt="The Four Seasons">
+                        The Four Seasons
+                    </header>
+                    <p>by
+                        <a href="#">teagan white</a>
+                        <a href="#">Drawing</a>,
+                        <a href="#">Illustration</a>
+                    </p>
+                    <footer>Featured On: 06/04/12</footer>
+                </li>
+                <li>
+                    <header>
+                        <img src="images/1_projectlist_img.jpg" alt="'wich" class="preview-list-image">
+                        <a href="#" class="preview-list-item-name">'wich</a>
+                    </header>
+                    <p>by
+                        <a href="#">Ken Lo</a>
+                        <a href="#" class="gray-link">Branding</a>,
+                        <a href="#" class="gray-link">Graphic Design</a>
+                    </p>
+                    <footer>Featured On: 06/04/12F</footer>
 
-            </li>
-            <li>
-                <header>
-                    <img src="images/2_projectlist_img.jpg" alt="'Measure">
-                    <a href="#" class="preview-list-item-name">Measure</a>
-                </header>
-                <p>by
-                    <a href="#">Fabrice Le Nezet></a>
-                    <a href="#">Architecture</a>,
-                    <a href="#">Fine Arts</a>
-                </p>
-                <footer>Featured On: 06/04/12</footer>
-            </li>
-            <li>
-                <header>
-                    <img src="images/1_projectlist_img.jpg" alt="'wich" class="preview-list-image">
-                    <a href="#" class="preview-list-item-name">'wich</a>
-                </header>
-                <p>by
-                    <a href="#">Ken Lo</a>
-                    <a href="#" class="gray-link">Branding</a>,
-                    <a href="#" class="gray-link">Graphic Design</a>
-                </p>
-                <footer>Featured On: 06/04/12F</footer>
-            </li>
-            <li>
-                <header>
-                    <img src="images/2_projectlist_img.jpg" alt="'Measure">
-                    <a href="#" class="preview-list-item-name">Measure</a>
-                </header>
-                <p>by
-                    <a href="#">Fabrice Le Nezet></a>
-                    <a href="#">Architecture</a>,
-                    <a href="#">Fine Arts</a>
-                </p>
-                <footer>Featured On: 06/04/12</footer>
-            </li>
-            <li>
-                <header>
-                    <img src="images/3_projectlist_img.jpg" alt="'Measure">
-                    <a href="#" class="preview-list-item-name">The Four Seasons</a>
-                </header>
-                <p> by
-                    <a href="#">teagan white</a>
-                    <a href="#" class="gray-link">Drawing</a>,
-                    <a href="#" class="gray-link">Illustration</a>
-                </p>
-                <footer>Featured On: 06/04/12</footer>
-            </li>
-            <li>
-                <header>
-                    <img src="images/1_projectlist_img.jpg" alt="'wich" class="preview-list-image">
-                    <a href="#" class="preview-list-item-name">'wich</a>
-                </header>
-                <p>by
-                    <a href="#">Ken Lo</a>
-                    <a href="#" class="gray-link">Branding</a>,
-                    <a href="#" class="gray-link">Graphic Design</a>
-                </p>
-                <footer>Featured On: 06/04/12F</footer>
-            </li>
-            <li>
-                <header>
-                    <img src="images/2_projectlist_img.jpg" alt="'Measure">
-                    <a href="#" class="preview-list-item-name">Measure</a>
-                </header>
-                <p>by
-                    <a href="#">Fabrice Le Nezet></a>
-                    <a href="#">Architecture</a>,
-                    <a href="#">Fine Arts</a>
-                </p>
-                <footer>Featured On: 06/04/12</footer>
-            </li>
-        </ul>
+                </li>
+                <li>
+                    <header>
+                        <img src="images/2_projectlist_img.jpg" alt="'Measure">
+                        <a href="#" class="preview-list-item-name">Measure</a>
+                    </header>
+                    <p>by
+                        <a href="#">Fabrice Le Nezet></a>
+                        <a href="#">Architecture</a>,
+                        <a href="#">Fine Arts</a>
+                    </p>
+                    <footer>Featured On: 06/04/12</footer>
+                </li>
+                <li>
+                    <header>
+                        <img src="images/1_projectlist_img.jpg" alt="'wich" class="preview-list-image">
+                        <a href="#" class="preview-list-item-name">'wich</a>
+                    </header>
+                    <p>by
+                        <a href="#">Ken Lo</a>
+                        <a href="#" class="gray-link">Branding</a>,
+                        <a href="#" class="gray-link">Graphic Design</a>
+                    </p>
+                    <footer>Featured On: 06/04/12F</footer>
+                </li>
+                <li>
+                    <header>
+                        <img src="images/2_projectlist_img.jpg" alt="'Measure">
+                        <a href="#" class="preview-list-item-name">Measure</a>
+                    </header>
+                    <p>by
+                        <a href="#">Fabrice Le Nezet></a>
+                        <a href="#">Architecture</a>,
+                        <a href="#">Fine Arts</a>
+                    </p>
+                    <footer>Featured On: 06/04/12</footer>
+                </li>
+                <li>
+                    <header>
+                        <img src="images/3_projectlist_img.jpg" alt="'Measure">
+                        <a href="#" class="preview-list-item-name">The Four Seasons</a>
+                    </header>
+                    <p> by
+                        <a href="#">teagan white</a>
+                        <a href="#" class="gray-link">Drawing</a>,
+                        <a href="#" class="gray-link">Illustration</a>
+                    </p>
+                    <footer>Featured On: 06/04/12</footer>
+                </li>
+                <li>
+                    <header>
+                        <img src="images/1_projectlist_img.jpg" alt="'wich" class="preview-list-image">
+                        <a href="#" class="preview-list-item-name">'wich</a>
+                    </header>
+                    <p>by
+                        <a href="#">Ken Lo</a>
+                        <a href="#" class="gray-link">Branding</a>,
+                        <a href="#" class="gray-link">Graphic Design</a>
+                    </p>
+                    <footer>Featured On: 06/04/12F</footer>
+                </li>
+                <li>
+                    <header>
+                        <img src="images/2_projectlist_img.jpg" alt="'Measure">
+                        <a href="#" class="preview-list-item-name">Measure</a>
+                    </header>
+                    <p>by
+                        <a href="#">Fabrice Le Nezet></a>
+                        <a href="#">Architecture</a>,
+                        <a href="#">Fine Arts</a>
+                    </p>
+                    <footer>Featured On: 06/04/12</footer>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
 </div>
 <footer>
     <div class="first-footer">    <!-- first level -->
@@ -240,12 +242,14 @@
             <header class="footer-gallery-header">
                 <a href="#" class="right">View All</a>
                 <span class="arrow">→</span>
+
                 <h3 class="first-footer-title">Popular Galleries</h3>
             </header>
             <ul class="footer-gallery">
                 <li>
                     <div class="footer-gallery-item">
                         <img src="images/adc.png" alt="ADC" class="footer-gallery-image">
+
                         <div class="footer-gallery-txtblock">
                             <a href="#" class="footer-gallery-headlink">ADC Young Guns</a>
                             <span class="gray-link">organization</span>
@@ -282,81 +286,133 @@
                     </div>
                 </li>
 
-             </ul>
+            </ul>
         </div>
     </div>
 
     <div class="second-footer">    <!-- second level -->
         <div class="core">
-     <!--       <span style="display: block; float: left;  width: 750px;"> -->
-                <h1>Take Creative Control & Make Ideas Happen</h1>
-                <h2><a href="/" class="blue-link">Learn More About Behance</a></h2>
+            <!--       <span style="display: block; float: left;  width: 750px;"> -->
+            <h1>Take Creative Control & Make Ideas Happen</h1>
+
+            <h2><a href="/" class="blue-link">Learn More About Behance</a></h2>
             <ul class="second-footer-menu">
                 <li>
-                    <a href="#" class="white-link">Team Blog</a>
+                    <a href="#" class="white-link second-footer-top-links">Team Blog</a>
                 </li>
                 <li>
-                    <a href="#" class="white-link">About Our Company</a>
+                    <a href="#" class="white-link second-footer-top-links">About Our Company</a>
                 </li>
                 <li>
-                    <a href="#" class="white-link">Press</a>
+                    <a href="#" class="white-link second-footer-top-links">Press</a>
                 </li>
                 <li>
-                    <a href="#" class="white-link">We're Hiring!</a>
+                    <a href="#" class="white-link second-footer-top-links">We're Hiring!</a>
                 </li>
             </ul>
-            <h3>The Power of The Platform</h3>
-            Behance Network Join The Leading Platform For Creative Professionals
-            Behance ProSite Build a Custom Online Portfolio Site in Minutes
-            Curated Galleries View Work by top Behance members on curated galleries
-            Powered-By Behance Browse galleries on LinkedIn, SVA, RISD, and many more
-            Find & Hire Top Creative Talent Find, track, and hire creative talent in the largest platform in the world
-            <h3>Our Other Products</h3>
-            The 99% Think Tank Articles, Tips, & Videos on Making Ideas Happen
-            Action Method Task Management for creative thinkers
-            Creative's Outfitter Products and tools for creative professionals
-            <h5>Follow Behance</h5>
-            <ul>
-                <li>Twitter</li>
-                <li>LinkedIn</li>
-                <li>Facebook</li>
-                <li>Newsletter</li>
-            </ul>
+            <div class="second-footer-first-column">
+                <h3 class="footer-column-title">Power of The Platform</h3>
+
+                <p>
+                    <a href="#" class="white-link">Behance Network</a>
+                    <a href="#">Join The Leading Platform For Creative Professionals</a>
+                </p>
+
+                <p>
+                    <a href="#" class="white-link"> Behance ProSite</a>
+                    <a href="#"> Build a Custom Online Portfolio Site in Minutes</a>
+                </p>
+
+                <p>
+                    <a href="#" class="white-link"> Curated Galleries</a>
+                    <a href="#"> View Work by top Behance members on curated galleries</a>
+                </p>
+
+                <p>
+                    <a href="#" class="white-link"> Powered-By Behance</a>
+                    <a href="#"> Browse galleries on LinkedIn, SVA, RISD, and many more</a>
+                </p>
+
+                <p>
+                    <a href="#" class="white-link"> Find & Hire Top Creative Talent</a>
+                    <a href="#"> Find, track, and hire creative talent in the largest platform in the
+                        world </a>
+                </p>
+            </div>
+            <section class="second-footer-other-product">
+                <h3 class="footer-column-title">Our Other Products</h3>
+
+                <p>
+                    <a href="#" class="white-link"> The 99% Think Tank</a>
+                    <a href="#"> Articles, Tips, & Videos on Making Ideas Happen</a>
+                </p>
+
+                <p>
+                    <a href="#" class="white-link"> Action Method</a>
+                    <a href="#"> Task Management for creative thinkers</a>
+                </p>
+
+                <p>
+                    <a href="#" class="white-link"> Creative's Outfitter</a>
+                    <a href="#"> Products and tools for creative professionals</a>
+                </p>
+            </section>
+            <section class="second-footer-follow-behance">
+                <h5 class="footer-column-title">Follow Behance</h5>
+                <ul>
+                    <li>
+                        <a href="#" class="white-link"> Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#" class="white-link"> LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="#" class="white-link">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#" class="white-link">Newsletter</a>
+                    </li>
+                </ul>
+            </section>
         </div>
     </div>
 
     <div class="third-footer"> <!-- third level -->
         <div class="core">
-            <h4>Latest Blog Posts</h4>
-            <ul>
-                <li>» Most Appreciated Projects on Behance</li>
-                <li>» 4,000 Creatives Come Together During Epic Week: Behance Portfolio Review Week Recap</li>
-                <li>» Behance Uses Rackspace and RightScale to Scale a Thriving Creative Community</li>
-                <li>» Most Appreciated Projects on Behance</li>
-            </ul>
-            <a href="/">View all Posts → </a>
-            <h6>Quick Links</h6>
-            <ul>
-                <li>Design Portfolio</li>
-                <li>Photography Portfolio</li>
-                <li>Art Portfolio</li>
-            </ul>
+            <section id="latestBlog">
+                <h4 id="latestBlogHeader" class="footer-column-title">Latest Blog Posts</h4>
+                <ul class="white-link">
+                    <li>» <a>Most Appreciated Projects on Behance</a></li>
+                    <li>» 4,000 Creatives Come Together During Epic Week: Behance Portfolio Review Week Recap</li>
+                    <li>» Behance Uses Rackspace and RightScale to Scale a Thriving Creative Community</li>
+                    <li>» Most Appreciated Projects on Behance</li>
+                </ul>
+                <a href="/" class="blue-link left">View all Posts → </a>
+            </section>
+            <section id="quickLinks">
+                <h6 class="footer-column-title">Quick Links</h6>
+                <ul class="gray-link">
+                    <li>Design Portfolio</li>
+                    <li>Photography Portfolio</li>
+                    <li>Art Portfolio</li>
+                </ul>
 
-            <ul>
-                <li>Fashion Portfolio</li>
-                <li>Graphic Design Portfolio</li>
-                <li>Portfolio Websites</li>
-            </ul>
+                <ul class="gray-link">
+                    <li>Fashion Portfolio</li>
+                    <li>Graphic Design Portfolio</li>
+                    <li>Portfolio Websites</li>
+                </ul>
 
-            <ul>
-                <li>Mobile Portfolios Apps</li>
-                <li>Success Stories</li>
-            </ul>
+                <ul class="gray-link">
+                    <li>Mobile Portfolios Apps</li>
+                    <li>Success Stories</li>
+                </ul>
+            </section>
         </div>
     </div>
     <div class="footer-menu-bg"><!-- Footer menu-->
         <div class="core">
-            <ul class="footer-menu">
+            <ul id="site-map">
                 <li><a href="#">Terms of Service & Privacy</a></li>
                 <li><a href="#">Help & FAQ</a></li>
                 <li><a href="#">Contact Us</a></li>
@@ -366,7 +422,7 @@
                 <li><a href="#">Apps</a></li>
                 <li><a href="#">Made in NYC</a></li>
             </ul>
-            <span style="color: gray;">All member work copyright of respective owner, otherwise © 2006-2012 Behance, Inc.</span>
+            <span id="copyright">All member work copyright of respective owner, otherwise © 2006-2012 Behance, Inc.</span>
         </div>
     </div>
 </footer>
