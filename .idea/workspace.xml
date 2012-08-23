@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb24970-f97f-46d2-bef4-c8f965cde524" name="Default" comment="">
-      <change type="DELETED" beforePath="K:\web_dev\Beh_from_beginning\images\._1_projectlist_img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="K:\web_dev\Beh_from_beginning\images\._2_projectlist_img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="K:\web_dev\Beh_from_beginning\images\._3_projectlist_img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="K:\web_dev\Beh_from_beginning\images\._adc.png" afterPath="" />
-      <change type="DELETED" beforePath="K:\web_dev\Beh_from_beginning\images\._artcenter.png" afterPath="" />
-      <change type="DELETED" beforePath="K:\web_dev\Beh_from_beginning\images\._portfel.png" afterPath="" />
-      <change type="DELETED" beforePath="K:\web_dev\Beh_from_beginning\images\._rga.png" afterPath="" />
-      <change type="DELETED" beforePath="K:\web_dev\Beh_from_beginning\images\._sva.png" afterPath="" />
-      <change type="DELETED" beforePath="K:\web_dev\Beh_from_beginning\styles\960.css" afterPath="" />
-      <change type="DELETED" beforePath="K:\web_dev\Beh_from_beginning\styles\styles.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.less" afterPath="$PROJECT_DIR$/styles/styles.less" />
     </list>
     <ignored path="Beh_from_beginning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="styles.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/styles.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="31" selection-start="1912" selection-end="1912" vertical-scroll-proportion="-11.115385">
+            <state line="14" column="24" selection-start="593" selection-end="614" vertical-scroll-proportion="-0.88743883">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.less" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/styles/styles.less">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="30" selection-start="1788" selection-end="1842" vertical-scroll-proportion="0.27878788">
+            <state line="58" column="30" selection-start="2176" selection-end="2176" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -73,16 +64,16 @@
       <list>
         <option value="$PROJECT_DIR$/styles/960.css" />
         <option value="$PROJECT_DIR$/styles/styles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/styles.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="731" />
-    <option name="y" value="181" />
-    <option name="width" value="1441" />
-    <option name="height" value="837" />
+    <option name="x" value="77" />
+    <option name="y" value="169" />
+    <option name="width" value="1292" />
+    <option name="height" value="803" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -126,30 +117,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Beh_from_beginning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Beh_from_beginning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Beh_from_beginning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Beh_from_beginning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Beh_from_beginning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -255,13 +222,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="731" y="181" width="1441" height="837" extended-state="0" />
+    <frame x="77" y="169" width="1292" height="803" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962406" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11576705" sideWeight="0.7503759" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12946783" sideWeight="0.7503759" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -337,14 +304,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="31" selection-start="1912" selection-end="1912" vertical-scroll-proportion="-11.115385">
+        <state line="58" column="30" selection-start="2176" selection-end="2176" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="30" selection-start="1788" selection-end="1842" vertical-scroll-proportion="0.27878788">
+        <state line="14" column="24" selection-start="593" selection-end="614" vertical-scroll-proportion="-0.88743883">
           <folding />
         </state>
       </provider>
